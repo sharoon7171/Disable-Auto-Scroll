@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Disable Auto Scroll",
+  "version": "1.0",
+  "description": "Disables middle-click auto-scrolling in Chrome",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
