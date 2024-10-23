@@ -24,9 +24,11 @@ When enabled, the extension prevents the default auto-scroll behavior triggered 
 
 ## Installation
 
-1. Download the extension from the Chrome Web Store (link to be added).
-2. Click on the extension icon in the Chrome toolbar to open the popup.
-3. Use the toggle switch to enable or disable auto-scroll functionality as needed.
+1. Clone or download this repository to your local machine.
+2. Open Google Chrome and navigate to `chrome://extensions/`.
+3. Enable "Developer mode" in the top right corner.
+4. Click "Load unpacked" and select the directory containing the extension files.
+5. The Disable Auto Scroll extension should now appear in your extensions list and be ready to use.
 
 ## Compatibility
 
@@ -35,6 +37,13 @@ This extension is compatible with Google Chrome and other Chromium-based browser
 ## Feedback and Contributions
 
 We welcome feedback, bug reports, and contributions! Please feel free to open an issue or submit a pull request on our GitHub repository.
+
+## Contact
+
+For any queries or support, you can reach out to the developer:
+
+**Sharoon**
+- WhatsApp: [+92 312 4094969](https://wa.me/923124094969)
 
 ## License
 
